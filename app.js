@@ -4,13 +4,13 @@ var scp = require('scp');
 var term_list = require('term-list');
 
 var remote = "";
-var ssh_alias = "wheredowecomefrom";
+var ssh_alias = "ssh-alias";
 var query = "";
 
 var url = "";
 
 var scp_options = {};
-var dir = "/home/klang/files/"
+var dir = "/files"
 prompt.start();
 
 prompt.get(['remote', 'query'], function(err, result) {
