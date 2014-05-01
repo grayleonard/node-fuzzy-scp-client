@@ -1,0 +1,22 @@
+{
+  "name": "node-fuzzy-scp-client",
+  "version": "0.0.0",
+  "description": "node-fuzzy-scp-client =====================",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grayleonard/node-fuzzy-scp-client.git"
+  },
+  "author": "Gray Leonard",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/grayleonard/node-fuzzy-scp-client/issues"
+  },
+  "dependencies": {
+    "scp": "0.0.3",
+    "prompt": "~0.2.12"
+  }
+}
