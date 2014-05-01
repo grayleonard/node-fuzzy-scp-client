@@ -37,7 +37,6 @@ prompt.get(['remote', 'query'], function(err, result) {
 					case 'return':
 						scp_options = {
 							file: dir + item,
-							user: 'klang',
 							host: ssh_alias,
 							port: 22,
 							path: './downloads/' + item + '/'
@@ -46,6 +45,7 @@ prompt.get(['remote', 'query'], function(err, result) {
 						scp.get(scp_options, function() {
 							console.log(arguments);
 						});
+						list.stop();
 					break;
 					case 'escape':
 						list.stop();
